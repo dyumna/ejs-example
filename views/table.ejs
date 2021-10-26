@@ -1,0 +1,21 @@
+<div>
+<p> length is <%= recs.length %>
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>info</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% recs.forEach((rec) => {%>
+    <tr>
+      <td><%= rec.info %></td>
+      <td><%= rec.id %></td>
+    </tr>
+    <% }); %>
+  </tbody>
+</table>
+</div>
+
+</div>
